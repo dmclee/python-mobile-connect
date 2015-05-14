@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+
+<body>
+	<p>Here are the details retrieved</p>
+	{% if msisdn_details %}
+		<p>MSISDN: {{msisdn_details.number}}</p>
+	{% endif %}
+	{% if email_details %}
+		<p>Email: {{email_details.address}}</p>
+	{% endif %}
+</body>
+</html>
